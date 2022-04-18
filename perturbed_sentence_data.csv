@@ -1,0 +1,61 @@
+﻿Triplet-N,G-or-U,Sentence,Violation,Goal,Notes,Score,N_replace,
+1,G,the dog eats food,,,We want to keep the argument structure,0.019423362,1,the dog eats food
+1,G,the boy eats food,,,,0.011201687,1,the boy eats food
+1,U,the car eats food,"Requires animate agent, car is inanimate",nsubj,,0.000361565,1,the car eats food
+2,G,previously only people had seen the jets,,,,1.03E-02,1,previously only people had seen the jets
+2,G,previously only scientists had seen the jets,,,,0.000635129,1,previously only scientists had seen the jets
+2,U,previously only fruits had seen the jets,"Requires animate agent, car is inanimate",nsubj,,5.87E-06,1,previously only fruits had seen the jets
+3,G,my pets sleep well at night,,,,0.000758559,1,my pets sleep well at night
+3,G,my children sleep well at night,,,,0.210115388,1,my children sleep well at night
+3,U,my ideas sleep well at night,animacy,nsubj,,1.41E-05,1,my ideas sleep well at night
+4,G,the horse runs around the track,,,,0.13902685,1,the horse runs around the track
+4,G,the athlete runs around the track,,,,0.155047745,1,the athlete runs around the track
+4,U,the plant runs around the track,Animacy,nsubj,,2.03E-05,1,the plant runs around the track
+5,G,"a keen guitarist, he played a concert there the same year",,,,0.148107424,1,"a keen guitarist, he played a concert there the same year"
+5,G,"a keen guitarist, he played a guitar there the same year",,,,0.000605048,1,"a keen guitarist, he played a guitar there the same year"
+5,U,"a keen guitarist, he played a hat there the same year","Requires an instrument, hat is incompatible with V",dobj,,3.24E-06,1,"a keen guitarist, he played a hat there the same year"
+6,G,the cricket team won the game last week,,,,0.016149677,1,the cricket team won the game last week
+6,G,the cricket team won the tournament last week ,,,,0.224143058,1,the cricket team won the tournament last week 
+6,U,the cricket team won the apple last week,apple is incompatible with V,dobj,,8.46E-07,1,the cricket team won the apple last week
+7,G,they’re usually artists who want to do a bunch of stuff,,,,0.501692295,1,they’re usually artists who want to do a bunch of stuff
+7,G,they’re usually artists who want to paint a bunch of stuff,,,,0.131716564,1,they’re usually artists who want to paint a bunch of stuff
+7,U,they’re usually artists who want to walk a bunch of stuff,Semantic issue between verb and noun,dobj,,1.58E-05,1,they’re usually artists who want to walk a bunch of stuff
+8,G,people in europe captured birds for festivals,,,,0.000627906,1,people in europe captured birds for festivals
+8,G,people in europe hunted birds for festivals,,,,0.000143926,1,people in europe hunted birds for festivals
+8,U,people in europe drank birds for festivals,Semantic issue between verb and noun,dobj,,3.89E-06,1,people in europe drank birds for festivals
+9,G,the girl eats bread,,,,0.009534081,1,the girl eats bread
+9,G,the girl eats apples,,,,0.000378881,1,the girl eats apples
+9,U,the girl eats sunshine,Semantic issue between verb and noun,dobj,,2.22E-05,1,the girl eats sunshine
+10,G,the girl reads her book in the library,,,,0.01774813,1,the girl reads her book in the library
+10,G,the girl reads her book in the car,,,,0.001040657,1,the girl reads her book in the car
+10,U,the girl reads her book in the table,,pobj,,0.000188161,1,the girl reads her book in the table
+11,G,the man drank a soda at the beach,,,,1.47E-05,1,the man drank a soda at the beach
+11,G,the man drank a soda at the table,,,,0.000671578,1,the man drank a soda at the table
+11,U,the man drank a soda at the train,,pobj,,7.23E-08,1,the man drank a soda at the train
+12,G,we are sitting around the table,,,,0.127993435,1,we are sitting around the table
+12,G,we are sitting around the fire,,,,0.073720872,1,we are sitting around the fire
+12,U,we are sitting around the dream,,pobj,,1.39E-05,1,we are sitting around the dream
+13,G,i walked through the city,,,,0.015938105,1,i walked through the city
+13,G,i walked through the gardens,,,,0.002733839,1,i walked through the gardens
+13,U,i walked through the coffee,,pobj,,4.68E-05,1,i walked through the coffee
+14,G,his friend walked to the station in the morning,,,,0.144747809,1,his friend walked to the station in the morning
+14,G,his friend walked from the station in the morning,,,,0.020234985,1,his friend walked from the station in the morning
+14,U,his friend walked up the station in the morning ,,prep,,0.000648407,1,his friend walked up the station in the morning 
+15,G,she bought a dress at the store,,,,0.566766143,1,she bought a dress at the store
+15,G,she bought a dress from the store,,,,0.25544396,1,she bought a dress from the store
+15,U,she bought a dress to the store,,prep,,0.001368273,1,she bought a dress to the store
+16,G,they saw the painting in the museum yesterday,,,,0.745726466,1,they saw the painting in the museum yesterday
+16,G,they saw the painting at the museum yesterday,,,,0.193830296,1,they saw the painting at the museum yesterday
+16,U,they saw the painting to the museum yesterday,,prep,,0.000173044,1,they saw the painting to the museum yesterday
+17,G,i brought the book from the shelf,,,,0.106230855,1,i brought the book from the shelf
+17,G,i brought the book to the shelf,,,,0.470173806,1,i brought the book to the shelf
+17,U,i brought the book into the shelf,,prep,,0.000938699,1,i brought the book into the shelf
+18,G,you tracked the sand into the house,,,,0.877328217,1,you tracked the sand into the house
+18,G,you tracked some sand into the house,,,,0.015197853,1,you tracked some sand into the house
+18,U,you tracked a sand into the house,,det,,0.000803611,1,you tracked a sand into the house
+19,G,she planted the grass last year,,,,0.276469827,1,she planted the grass last year
+19,G,she planted some grass last year,,,,0.348507434,1,she planted some grass last year
+19,U,she planted many grass last year,,det,,0.000429023,1,she planted many grass last year
+20,G,they need the courage to leave the cult,,,,0.960537434,1,they need the courage to leave the cult
+20,G,they need some courage to leave the cult,,,,0.006531003,1,they need some courage to leave the cult
+20,U,they need a courage to leave the cult,,det,,0.000224079,1,they need a courage to leave the cult
